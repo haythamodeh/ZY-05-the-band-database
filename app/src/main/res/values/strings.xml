@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">The Band Database</string>
     <string name="details">Details</string>
+    <string name="settings">The Band Database Settings</string>
 
     <string-array name="bands">
         <item>The Beatles</item>
