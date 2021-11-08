@@ -12,6 +12,9 @@
         <action
             android:id="@+id/show_item_detail"
             app:destination="@id/detail_fragment" />
+        <action
+            android:id="@+id/action_list_fragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/detail_fragment"
@@ -23,4 +26,9 @@
             android:defaultValue="1"
             app:argType="integer" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.zybooks.thebanddatabase.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
